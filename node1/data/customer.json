@@ -1,0 +1,30 @@
+{
+  "1": {
+    "FirstName": "Sreeja",
+    "LastName": "Reddy",
+    "Address": "xyz",
+    "City": "hyd",
+    "State": "Tel"
+  },
+  "2": {
+    "FirstName": "Manish",
+    "LastName": "Reddy",
+    "Address": "abc",
+    "City": "hyd",
+    "State": "Tel"
+  },
+  "3": {
+    "FirstName": "Srilatha",
+    "LastName": "Reddy",
+    "Address": "ccc",
+    "City": "sec",
+    "State": "Tel"
+  },
+  "4": {
+    "FirstName": "Vishal",
+    "LastName": "Sandhya",
+    "Address": "tkr",
+    "City": "sec",
+    "State": "Tel"
+  }
+}

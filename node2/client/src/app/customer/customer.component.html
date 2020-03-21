@@ -1,0 +1,25 @@
+<header><h3>Customer Manager</h3></header>
+<div>
+    <div *ngFor='let customer of customers'>
+        <table>
+            <td>
+                <tr>{{customer.first_name}}</tr>
+                <tr>{{customer.last_name}}</tr>
+                <tr>{{customer.address}}</tr>
+                <tr>{{customer.city}}</tr>
+                <tr>{{customer.state}}</tr>
+
+            </td>
+        </table>
+
+    </div>
+    <div>
+       FirstName <input type='text' [(ngModel)]='first_name'>
+       LastName <input type='text' [(ngModel)]='last_name'>
+       Address <input type='text' [(ngModel)]='address'>
+       City <input type='text' [(ngModel)]='city'>
+       State <input type='text' [(ngModel)]='state'>
+        <input type='button' (onClick)="addcustomer()" value="addCustomer">
+    </div>
+</div>
+<footer>Created by @s</footer>
